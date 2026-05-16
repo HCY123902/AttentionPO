@@ -1,0 +1,1 @@
+python get_init_dataset.py --model llama-3-8b
