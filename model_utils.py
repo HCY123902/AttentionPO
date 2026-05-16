@@ -129,18 +129,6 @@ def is_adapter_model(model_name_or_path: str, revision: str = "main") -> bool:
 
 def get_checkpoint(training_args: SFTConfig | DPOConfig) -> Path | None:
     try:
-        # user_name = whoami()["name"]
-        
-        # if training_args.output_dir.endswith("/"):
-        #     training_args.output_dir = training_args.output_dir[:-1]
-        # dir_name = os.path.basename(training_args.output_dir)
-        # print("[get_checkpoint] user_name: {}; dir_name: {}".format(user_name, dir_name))
-        # files = list_repo_tree(repo_id="{}/{}".format(user_name, dir_name))
-        
-        # paths = [f.path for f in files]
-        # print("[get_checkpoint] paths: {}".format(paths))
-        # if "last-checkpoint" in paths:
-        #     return "last-checkpoint"
 
         if "last-checkpoint" in os.listdir(training_args.output_dir):
             return str(os.path.join(training_args.output_dir, "last-checkpoint"))
