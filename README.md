@@ -61,8 +61,8 @@ To curate datasets for LLaMA-3-8B-Instruct, replace `llama-3-8b` with `llama-3-8
 
 | **Model** | **Download** |
 | :------------: | :------------: |
-| LLaMA-3-8B-Base-SFT | [🤗 HuggingFace](https://huggingface.co/datasets/AttentionPO/llama-3-8b)   |
-| LLaMA-3-8B-Instruct |  [🤗 HuggingFace](https://huggingface.co/datasets/AttentionPO/llama-3-8b-inst)   |
+| LLaMA-3-8B-Base-SFT | [🤗 HuggingFace](https://huggingface.co/AttentionPO/llama-3-8b)   |
+| LLaMA-3-8B-Instruct |  [🤗 HuggingFace](https://huggingface.co/AttentionPO/llama-3-8b-inst)   |
 
 ### Training Scripts
 
